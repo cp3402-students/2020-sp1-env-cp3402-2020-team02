@@ -6,5 +6,5 @@
 - Alwin George
 - Jayden Kearney, jayden.kearney@my.jcu.edu.au
 - Daan Felton
-- Steven Williams
+- Steven Williams, steven.williams1@my.jcu.edu.au
 
