@@ -8,5 +8,3 @@
 - Daan Felton
 - Steven Williams
 
-## Website Structure
-![Website Structure](flowchart.png)
