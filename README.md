@@ -4,7 +4,7 @@
 ### Group Members
 
 - Alwin George
-- Jayden Kearney
+- Jayden Kearney, jayden.kearney@my.jcu.edu.au
 - Daan Felton
 - Steven Williams
 
