@@ -3,7 +3,7 @@
 ## Theme Name: Jazzy
 ### Group Members
 
-- Alwin George
+- Alwin George, alwin.george@my.jcu.edu.au
 - Jayden Kearney, jayden.kearney@my.jcu.edu.au
 - Daan Felton
 - Steven Williams, steven.williams1@my.jcu.edu.au
