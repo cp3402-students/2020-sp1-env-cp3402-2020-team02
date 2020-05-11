@@ -14,7 +14,7 @@ A starter theme called Jazzy.
 
 == Description ==
 
-Description
+A Custom wordpress theme designed by Group 02 of CP3402.
 
 == Installation ==
 

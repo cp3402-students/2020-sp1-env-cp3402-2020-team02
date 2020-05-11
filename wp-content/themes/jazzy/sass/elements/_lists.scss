@@ -1,0 +1,29 @@
+ul,
+ol {
+	margin: 0 0 1.5em 3em;
+  text-decoration: none;
+}
+
+ul {
+	list-style: none;
+  padding-inline-start: 10px;
+}
+
+ol {
+	list-style: none;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+  text-decoration: none;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
