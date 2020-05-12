@@ -1,7 +1,11 @@
-@import "/sass/variables-site/colors";
-@import "/sass/variables-site/typography";
 p {
 	margin-bottom: 1.5em;
+}
+
+.site-title {
+  margin-left: 1em;
+  text-decoration: none;
+  color: #111111;
 }
 
 dfn,

@@ -1,25 +1,19 @@
-@import "/sass/variables-site/structure";
-.site {
+/*.site {
   display: grid;
 	grid-template-columns: auto ($size__site-sidebar);
 	grid-template-areas:
 		"header header"
 		"main sidebar"
 		"footer footer";
-}
+}*/
 
 .site-header {
-	grid-area: header;
+  grid-area: header;
   padding: 0;
 }
 
-.site-title {
-  margin-left: 1em;
-  margin-top: 0;
-}
-
 .site-main {
-	grid-area: main;
+	//grid-area: main;
 	overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
   margin-left: 2em;
   background-color: #dddddd;
@@ -29,7 +23,7 @@
 }
 
 .widget-area {
-	grid-area: sidebar;
+	//grid-area: sidebar;
   float: right;
   top: 0;
   right: 0;
@@ -45,4 +39,4 @@
 	grid-area: footer;
 }
 
-@import "no-sidebar";
+//@import "no-sidebar";
