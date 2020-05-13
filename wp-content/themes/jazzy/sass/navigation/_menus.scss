@@ -2,7 +2,7 @@
 	display: block;
 	width: 100%;
   background-color: #f57b51;
-  margin: 0em;
+  margin: 0;
   padding: 0;
   line-height: 0;
 
@@ -66,8 +66,8 @@
 	a {
 		display: block;
 		text-decoration: none;
-    border: 0px #000000 solid;
-    border-radius: 0px;
+    border: 0 #000000 solid;
+    border-radius: 0;
     padding: 1.5em;
     margin: 0.5em;
     background-color: $color__nav-a-back;
@@ -85,6 +85,10 @@
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
 	}
+
+  .menu-main-menu-container {
+    margin-bottom: 0;
+  }
 }
 
 /* Small menu. */
@@ -92,7 +96,7 @@
 .main-navigation.toggled ul {
 	display: block;
 	background-color: #f57b51;
-	
+
 }
 
 @media screen and (min-width: 37.5em) {
