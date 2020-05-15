@@ -137,6 +137,7 @@ function jazzy_widgets_init() {
 		)
 	);
 }
+
 add_action( 'widgets_init', 'jazzy_widgets_init' );
 
 /**

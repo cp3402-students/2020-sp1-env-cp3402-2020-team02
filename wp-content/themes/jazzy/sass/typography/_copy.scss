@@ -1,6 +1,12 @@
 p {
 	margin-bottom: 1.5em;
 }
+//When the screens width is less than 500px the paragraph font size will lower.
+@media only screen and (max-width: 500px){
+  p{
+    font-size: .8em;
+  }
+}
 
 .site-title {
   margin-left: 1em;

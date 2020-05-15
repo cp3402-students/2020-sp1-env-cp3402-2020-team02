@@ -387,15 +387,25 @@ h1 {
 h2 {
   color: #404040;
   font-size: 1.5em;
-  margin: 1em 1em;
+  margin: 1em;
   text-decoration: none;
   text-underline: none;
 }
 
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
 p {
   margin-bottom: 1.5em;
 }
 
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 0.8em;
+  }
+}
 .site-title {
   margin-left: 1em;
   text-decoration: none;
@@ -689,14 +699,20 @@ a:hover, a:active {
   background-color: #808080;
 }
 .main-navigation .menu-main-menu-container {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
-  background-color: #f57b51;
+  text-decoration: none;
+  border: 0 #000000 solid;
+  border-radius: 0;
+  padding: 1.5em;
+  margin: 0;
+  background-color: #ca5116;
+  color: #FFFFFF;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -838,7 +854,19 @@ a:hover, a:active {
   border-radius: 1px;
   border: 1px solid black;
 }
+.widget-area .widget {
+  margin: 0;
+}
+.widget-area .widget .search-form {
+  width: 100%;
+  margin: 5% 0;
+}
 
+@media only screen and (max-width: 500px) {
+  .widget-area {
+    display: none;
+  }
+}
 .site-footer {
   grid-area: footer;
   background-color: #f57b51;

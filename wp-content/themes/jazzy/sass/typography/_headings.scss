@@ -17,8 +17,14 @@ h1 {
 h2 {
   color: $color__text-main;
   font-size: 1.5em;
-  margin: 1em 1em;
+  margin: 1em;
   text-decoration: none;
   text-underline: none;
 }
 
+//When the screen width is less than 500px the main headings font size will lower..
+@media only screen and (max-width: 500px){
+  h1{
+    font-size: 1.5em;
+  }
+}

@@ -36,6 +36,20 @@
   background-color: #f6eedf;
   border-radius: 1px;
   border: 1px solid black;
+  .widget{
+    margin: 0;
+
+    .search-form {
+      width: 100%;
+      margin: 5% 0;
+    }
+  }
+}
+// When the screen is less than 500px the search bar will disappear
+@media only screen and (max-width: 500px){
+  .widget-area{
+    display: none;
+  }
 }
 
 .site-footer {
