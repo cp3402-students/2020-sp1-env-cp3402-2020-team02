@@ -391,13 +391,25 @@ h1 {
 h2 {
   color: #404040;
   font-size: 1.5em;
-  margin: 1em 1em;
+  margin: 1em;
   text-decoration: none;
   text-underline: none;
 }
 
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
 p {
   margin-bottom: 1.5em;
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: .8em;
+  }
 }
 
 .site-title {
@@ -647,8 +659,8 @@ a:hover, a:active {
 .main-navigation {
   display: block;
   width: 100%;
-  background-color: #f57b51;
-  margin: 0em;
+  background-color: #30475e;
+  margin: 0;
   padding: 0;
   line-height: 0;
 }
@@ -698,11 +710,11 @@ a:hover, a:active {
 .main-navigation a {
   display: block;
   text-decoration: none;
-  border: 0px #000000 solid;
-  border-radius: 0px;
+  border: 0 #000000 solid;
+  border-radius: 0;
   padding: 1.5em;
   margin: 0.5em;
-  background-color: #ca5116;
+  background-color: #30475e;
   color: #FFFFFF;
 }
 
@@ -714,23 +726,33 @@ a:hover, a:active {
   background-color: #808080;
 }
 
+.main-navigation .menu-main-menu-container {
+  margin: 0;
+}
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
-  background-color: #f57b51;
+  text-decoration: none;
+  border: 0 #000000 solid;
+  border-radius: 0;
+  padding: 1.5em;
+  margin: 0;
+  background-color: #30475e;
+  color: #FFFFFF;
 }
 
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
     display: none;
-    background-color: #f57b51;
+    background-color: #30475e;
   }
   .main-navigation ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: #f57b51;
+    background-color: #30475e;
   }
 }
 
@@ -848,18 +870,18 @@ a:hover, a:active {
 }*/
 .site-header {
   grid-area: header;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   padding: 0;
-  background-color: #ffd31d;
+  background-color: #ececec;
 }
 
 .site-main {
   overflow: hidden;
   /* Resolves issue with <pre> elements forcing full width. */
-  margin-bottom: 0em;
-  margin-top: 0em;
+  margin-bottom: 0;
+  margin-top: 0;
   margin-left: 1em;
-  background-color: #f6eedf;
+  background-color: #ececec;
   border-radius: 1px;
   padding: 10px;
 }
@@ -876,11 +898,31 @@ a:hover, a:active {
   border: 1px solid black;
 }
 
+.widget-area .widget {
+  margin: 0;
+}
+
+.widget-area .widget .search-form {
+  width: 100%;
+  margin: 5% 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .widget-area {
+    display: none;
+  }
+}
+
 .site-footer {
   grid-area: footer;
-  background-color: #f57b51;
+  background-color: #30475e;
   color: #FFFFFF;
   height: 60px;
+  margin-top: 0;
+}
+
+.site-footer .site-info {
+  margin-top: 0;
 }
 
 /*--------------------------------------------------------------
